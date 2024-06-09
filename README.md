@@ -20,10 +20,10 @@ This repository contains the implementation of an interactive photo gallery and 
 
 #### Features
 
-* Responsive Design: The gallery adapts seamlessly to different screen sizes and devices.
+* Responsive Design: The gallery goes with different screen sizes and devices.
 * Figma Design Accuracy: The implementation matches the provided Figma designs pixel-perfectly, including layout, spacing, typography, and visual styles.
 * Hover Interaction: Displays additional details when a user hovers over a photo.
-* Cross-browser Compatibility: Ensures consistent performance across modern web browsers such as Chrome, Firefox, Safari, and Edge.
+* Browser Compatibility: Ensures consistent performance across modern web browsers such as Chrome, Firefox, Safari, and Edge.
 
 #### Implementation
 
@@ -85,7 +85,9 @@ console.log(hasTargetSumSubarray(
 ```
 
 ### Conclusion
-This project demonstrates the implementation of a responsive and interactive photo gallery and solutions to two coding challenges. The code follows best practices and ensures cross-browser compatibility. Detailed instructions and testing cases are provided to facilitate setup and verification of functionality.
+This project is demonstrating the implementation of a responsive and interactive photo gallery and solutions to two coding challenges. 
+The codes follows best practices and ensures browser compatibility. 
+Instructions and testing cases are provided to facilitate setup and verification of functionality as given in the task.
 
 ## Author
 Created by: **HABIYAREMYE Laurier**
