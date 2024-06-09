@@ -144,3 +144,13 @@ Open index.html in your web browser to view the photo gallery.
 console.log(hasTargetSumSubarray([4, 2, 7, 1, 9, 5], 17)); // true
 console.log(hasTargetSumSubarray([1, 2, 3, 4, 5], 15)); // true
 console.log(hasTargetSumSubarray(
+```
+
+### Conclusion
+This project demonstrates the implementation of a responsive and interactive photo gallery and solutions to two coding challenges. The code follows best practices and ensures cross-browser compatibility. Detailed instructions and testing cases are provided to facilitate setup and verification of functionality.
+
+## Author
+Created by: **HABIYAREMYE Laurier**
+- **GIThub**: https://github.com/McGREENS
+- **Address**: Rwanda
+
