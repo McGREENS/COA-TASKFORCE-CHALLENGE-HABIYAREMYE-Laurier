@@ -31,92 +31,30 @@ This repository contains the implementation of an interactive photo gallery and 
 * CSS Styling: Followed the design guidelines from Figma.
 * JavaScript Functionality: Implemented interactivity and functionality.
 
-#### Directory Structure
+#### Structure
 
 ```
-/interactive-photo-gallery
-    index.html
-    styles.css
-    script.js
+COA-TASKFORCE-CHALLENGE-HABIYAREMYE-Laurier/
+├── UI Challenge - Interactive Photo Gallery/
+│   ├── images/
+│   │   └── (image files)
+│   ├── index.html
+│   ├── script.js
+│   └── styles.css
+└── Coding Challenges/
+    ├── array-manipulation.js
+    └── string-transformation.js
+
 ```
 
 ### Coding Challenges
 
 #### Array Manipulation
 
-**Problem Statement**
-
-Given an array of integers and a target sum, determine if there exists a contiguous subarray within the array that sums up to the target. Return true if such a subarray exists, otherwise return false.
-
-**Example**
-
-```javascript
-Input: arr = [4, 2, 7, 1, 9, 5], target = 17
-Output: true
-Explanation: The subarray [7, 1, 9] sums up to 17, which is equal to the target.
-```
-
-**Solution**
-
-```javascript
-function hasTargetSumSubarray(arr, target) {
-  let currSum = 0;
-  let sumMap = new Map();
-
-  for (let i = 0; i < arr.length; i++) {
-    currSum += arr[i];
-
-    if (currSum === target) {
-      return true;
-    }
-
-    if (sumMap.has(currSum - target)) {
-      return true;
-    }
-
-    sumMap.set(currSum, i);
-  }
-
-  return false;
-}
-```
 
 #### String Transformation
 
-**Problem Statement**
 
-Given a string, transform it based on the following rules:
-
-* If the length of the string is divisible by 3, reverse the entire string.
-* If the length of the string is divisible by 5, replace each character with its ASCII code.
-* If the length of the string is divisible by both 3 and 5 (i.e., divisible by 15), perform both operations in the order specified above.
-
-**Example**
-
-```javascript
-Input: "Hamburger"
-Output: "regrubmaH"
-Explanation: The length of the string is 9, which is divisible by 3 but not by 5 or 15. Therefore, the string is reversed, resulting in "regrubmaH".
-```
-
-**Solution**
-
-```javascript
-function stringTransform(input) {
-  let transformed = input;
-
-  if (input.length % 15 === 0) {
-    transformed = transformed.split('').reverse().join('');
-    transformed = transformed.split('').map(char => char.charCodeAt(0)).join(' ');
-  } else if (input.length % 3 === 0) {
-    transformed = transformed.split('').reverse().join('');
-  } else if (input.length % 5 === 0) {
-    transformed = transformed.split('').map(char => char.charCodeAt(0)).join(' ');
-  }
-
-  return transformed;
-}
-```
 
 ### Setup Instructions
 
