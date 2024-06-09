@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the page -->
+    <title>UI Challenge: Interactive Photo Gallery</title>
+    <!-- the internet lik which will help to fetch font from internet -->
+    <link href="https://fonts.cdnfonts.com/css/d-din" rel="stylesheet">
+    <!-- link for a local css file for styling the page -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- intro section -->
+    <h1>Intro</h1>
+    
+    <div class="intro">
+        <div class="text">
+            <!-- I used "double<br>" to ensure that it will make double space btn each sentence -->
+            <p>The designs represent both desktop and mobile views. <br><br>To view interactions: Run the designs in prototype mode.</p>
+        </div>
+    </div>
+
+    <!-- Gallery 01 section -->
+    <div class="gallery-section">
+        <h2>Gallery 01</h2>
+        <div class="gallery gallery01">
+            <div class="gallery-item">
+                <img src="images/fennec-fox.png" alt="Fennec Fox">
+                <div class="heading">FENNEC FOX</div>
+                <div class="description">India</div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/humpback-whale.png" alt="Humpback Whale">
+                <div class="heading">HUMPBACK WHALE</div>
+                <div class="description">South Africa</div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/baboon.png" alt="Common Brown Baboon">
+                <div class="heading">COMMON BROWN BABOON</div>
+                <div class="description">South Africa</div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/spotted-deer.png" alt="Spotted Deer">
+                <div class="heading">SPOTTED DEER</div>
+                <div class="description">Amazon</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Gallery 03 section -->
+    <div class="gallery-section">
+        <h2>Gallery 03</h2>
+        <div class="gallery gallery03">
+            <div class="gallery-item small">
+                <img src="images/fennec-fox.png" alt="Fennec Fox">
+            </div>
+            <div class="gallery-item small">
+                <img src="images/humpback-whale.png" alt="Humpback Whale">
+            </div>
+            <div class="gallery-item small">
+                <img src="images/baboon.png" alt="Common Brown Baboon">
+            </div>
+            <div class="gallery-item small">
+                <img src="images/spotted-deer.png" alt="Spotted Deer">
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal which will help to make full size of an image once clicked  -->
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </div>
+
+    <!-- js file link  for a better interaction -->
+    <script src="script.js"></script>
+</body>
+</html>
