@@ -123,13 +123,13 @@ function stringTransform(input) {
 1. Clone the Repository:
 
 ```sh
-git clone https://github.com/your-username/repo-name.git
+git clone https://github.com/McGREENS/COA-TASKFORCE-CHALLENGE-HABIYAREMYE-Laurier.git
 ```
 
 2. Navigate to the Project Directory:
 
 ```sh
-cd repo-name
+cd COA-TASKFORCE-CHALLENGE-HABIYAREMYE-Laurier
 ```
 
 3. Open the Interactive Photo Gallery:
