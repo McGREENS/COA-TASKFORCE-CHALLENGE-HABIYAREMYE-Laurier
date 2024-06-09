@@ -3,38 +3,14 @@
 # Overview
 This repository contains the implementation of an Interactive Photo Gallery and solutions to two coding challenges. The purpose of this project is to demonstrate skills in HTML, CSS, JavaScript, and problem-solving abilities.
 
-## Contents
 
-
-1. [Introduction](#introduction)
-
-2. [Interactive Photo Gallery](#Interactive Photo Gallery)
-
-3. [Coding Challenges](#Coding Challenges)
-
-4. [Array Manipulation](#Array Manipulation)
-
-5. [String Transformation](#String Transformation)
-
-
-
-
-
-Technologies Used
-Setup Instructions
-Project Structure
-Testing
-Array Manipulation
-String Transformation
-Contributing
-Author
-
-Introduction
+## Introduction
 The Interactive Photo Gallery & Coding Challenges project demonstrates the creation of a responsive photo gallery and solutions to two specific coding problems. The gallery showcases interactivity and design accuracy, while the coding challenges highlight problem-solving skills in JavaScript.
 
-Interactive Photo Gallery
+## Interactive Photo Gallery
 Features
-Responsive Design: Adapts to different screen sizes and devices.
+# Responsive Design: 
+Adapts to different screen sizes and devices.
 Figma Design Accuracy: Matches provided Figma designs pixel-perfectly.
 Hover Interaction: Displays additional details on hover.
 Cross-browser Compatibility: Consistent performance across Chrome, Firefox, Safari, and Edge.
