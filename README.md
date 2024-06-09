@@ -1,14 +1,25 @@
 # COA-TASKFORCE-CHALLENGE-HABIYAREMYE-Laurier
 
-Overview
+# Overview
 This repository contains the implementation of an Interactive Photo Gallery and solutions to two coding challenges. The purpose of this project is to demonstrate skills in HTML, CSS, JavaScript, and problem-solving abilities.
 
-Table of Contents
-Introduction
-Interactive Photo Gallery
-Coding Challenges
-Array Manipulation
-String Transformation
+## Contents
+
+
+1. [Introduction](#introduction)
+
+2. [Interactive Photo Gallery](#Interactive Photo Gallery)
+
+3. [Coding Challenges](#Coding Challenges)
+
+4. [Array Manipulation](#Array Manipulation)
+
+5. [String Transformation](#String Transformation)
+
+
+
+
+
 Technologies Used
 Setup Instructions
 Project Structure
